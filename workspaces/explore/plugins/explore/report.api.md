@@ -133,6 +133,9 @@ export type SubRoute = {
 // @public (undocumented)
 export const ToolExplorerContent: (props: {
   title?: string | undefined;
+  objectFit?: 'contain' | 'cover' | undefined;
+  showTagsFilter?: boolean | undefined;
+  showLifecycleFilter?: boolean | undefined;
 }) => JSX_2.Element;
 
 // @public (undocumented)
